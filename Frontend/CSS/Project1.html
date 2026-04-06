@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice Level 1</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS */
+
+        #heading {
+            color: blue;
+        }
+
+
+        /* Group Selector */
+        #first, #second {
+            color: rgb(12, 2, 2);
+      
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#practice">Practice</a> |
+        <a href="#contact">Contact</a> |
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+            Learn CSS
+        </a>
+    </nav>
+
+    <hr>
+
+    <!-- Inline CSS -->
+    <h1 id="home" style="color: red;">CSS Practice Level 1</h1>
+
+    <!-- ID Selector -->
+    <div id="heading">
+        This section demonstrates ID selector (#heading)
+    </div>
+
+    <!-- Class Selector -->
+    <p class="text">
+        This paragraph uses a class selector (.text)
+    </p>
+
+    <!-- Element Selector -->
+    <div>
+        This div is styled using element selector
+    </div>
+
+    <!-- Mixed Selectors -->
+    <h2 class="text" id="practice">
+        Practice Section (class + id used)
+    </h2>
+
+    <!-- Group Selector -->
+    <div id="first">
+        First Box (Group Selector Applied)
+    </div>
+
+    <div id="second">
+        Second Box (Group Selector Applied)
+    </div>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+        <p class="text">
+            Created for CSS Practice • 
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>

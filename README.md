@@ -35,7 +35,7 @@ This repository contains a collection of basic to intermediate HTML practicals c
 ## 🛠️ Technologies Used
 
 - HTML5  
-- Visual Studio Code  
+- Visual Studio Code 
 - Safari Browser  
 
 ---

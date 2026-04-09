@@ -1,0 +1,126 @@
+/* Basic styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Attribute Selector */
+nav a[href] {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Pseudo-class */
+nav a:hover {
+    color: yellow;
+}
+
+/* Active link */
+nav a:active {
+    color: red;
+}
+
+/* Relational Selector (child) */
+.container > .card {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+/* Relational Selector (descendant) */
+.card p {
+    color: #333;
+}
+
+/* First card special */
+.card:first-child {
+    border-left: 5px solid blue;
+}
+
+/* Last card */
+.card:last-child {
+    border-left: 5px solid green;
+}
+
+/* nth-child */
+.card:nth-child(2) {
+    background-color: #eef;
+}
+
+/* Adjacent sibling selector */
+.card + .card {
+    margin-top: 20px;
+}
+
+/* General sibling selector */
+.card ~ .card {
+    border: 1px solid #ddd;
+}
+
+/* Attribute selector (specific) */
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Attribute selector (starts with) */
+a[href^="https"] {
+    color: lightgreen;
+}
+
+/* Attribute selector (ends with) */
+a[href$=".html"] {
+    text-decoration: underline;
+}
+
+/* Pseudo-class for form */
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background: orange;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

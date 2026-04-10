@@ -1,0 +1,62 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tag selector */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Pseudo-class */
+nav a:hover {
+    color: yellow;
+}
+
+/* Class selector */
+.container {
+    padding: 20px;
+}
+
+/* ID selector */
+#main-heading {
+    color: #333;
+}
+
+/* Attribute selector */
+input[type="text"], input[type="email"] {
+    padding: 8px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Pseudo-class */
+button:hover {
+    background: black;
+    color: white;
+}
+
+/* Relational selector */
+.container p {
+    color: #555;
+}
+
+/* nth-child selector */
+ul li:nth-child(odd) {
+    background: #ddd;
+}

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #020617;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Hover */
+nav a:hover {
+    color: cyan;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: cyan;
+    color: black;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+/* Pseudo class */
+.btn:hover {
+    background: white;
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+/* Card */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Relational selector */
+.card p {
+    color: #cbd5e1;
+}
+
+/* nth-child */
+.card:nth-child(2) {
+    border: 2px solid cyan;
+}
+
+/* Form */
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

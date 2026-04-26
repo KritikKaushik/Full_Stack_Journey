@@ -1,0 +1,26 @@
+#cal{
+    border: 1px solid rgb(22, 22, 22);
+    border-radius: 5px;
+    width: 200px;
+
+}
+
+#display{
+    margin: 10px;
+    width: 75%;
+    font-size: 25px;
+}
+
+.but_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+}
